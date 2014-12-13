@@ -2,8 +2,20 @@
 
 Check that Ruby has GDBM available.
 
-## Run with
+## Setup
+
+```
+bundle install
+```
+
+## Run against Ruby's builtin GDBM:
 
 ```shell
-rake
+BUNDLE_GEMFILE=Gemfile.gdbm-builtin rake
+```
+
+## Run against Ruby's builtin GDBM:
+
+```shell
+BUNDLE_GEMFILE=Gemfile.gdbm-gem rake
 ```
