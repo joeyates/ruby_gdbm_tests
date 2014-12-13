@@ -1,4 +1,3 @@
-ruby_gdbm_tests
-===============
+# ruby\_gdbm\_tests
 
-Check that Ruby hash GDBM available
+Check that Ruby has GDBM available
